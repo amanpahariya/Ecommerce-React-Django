@@ -1,0 +1,15 @@
+
+.card{
+    max-width: 320px;
+    margin: 20px;
+    box-shadow: none;
+    padding: 0;
+    border: 1px solid rgba(0, 0, 0, 0.055);
+    max-height: 500px;
+}
+.card:hover{
+    box-shadow: 0 0 15px rgba(41,35,35,.16);
+}
+.card p{
+    margin: 0;
+}

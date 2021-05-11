@@ -1,0 +1,30 @@
+.details-container {
+    padding: 0 0 0 24px;
+}
+
+.size-container {
+    display: flex;
+    margin-top: 30px;
+}
+
+.size-container ul {
+    list-style: none;
+    display: flex;
+}
+
+.size-container ul li {
+    margin: 0 5px;
+}
+
+.size-container ul li button {
+    background: none;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    outline: none;
+    width: 40px;
+    padding: 5px;
+    font-size: 12px;
+}
+
+.size-container ul li button.active {
+    border: 2px solid blue;
+}

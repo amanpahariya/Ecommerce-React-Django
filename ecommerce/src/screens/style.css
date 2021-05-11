@@ -1,0 +1,25 @@
+.card-container {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+}
+
+.card-container .card {
+    max-width: 500px;
+    min-width: 400px;
+    background: rgb(226, 225, 225);
+}
+
+@media (max-width:500px) {
+    .card-container .card {
+        min-width: 300px;
+    }
+}
+
+@media (max-width:350px) {
+    .card-container .card {
+        width: 100%;
+        margin: 0 !important;
+    }
+}
